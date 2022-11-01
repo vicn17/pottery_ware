@@ -1,0 +1,64 @@
+.table {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: inherit;
+}
+.container {
+  border-radius: inherit;
+}
+table {
+  width: 100%;
+  text-align: center;
+  border-radius: inherit;
+  overflow: hidden;
+  border-collapse: collapse;
+  border-spacing: 1px;
+  color: white;
+  box-shadow: 0 10px 30px black;
+}
+table a {
+  color: white;
+  margin: 0 5px;
+}
+thead {
+  height: 4rem;
+  background-color: #1b2430;
+  white-space: nowrap;
+}
+tbody {
+  background-color: #30334c;
+}
+tbody tr {
+  /* height: 8rem; */
+  border-bottom: 2px solid #1b2430;
+}
+tbody tr td {
+  padding: 1rem 0;
+}
+td img {
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
+.btnDelete {
+  padding: 10px;
+  background-color: red;
+  border-radius: 8px;
+  transition: 0.25s;
+  border: 1px solid red;
+}
+.btnDelete:hover {
+  background-color: white;
+  color: red;
+}
+.btnEdit {
+  padding: 10px;
+  background-color: green;
+  border-radius: 8px;
+  transition: 0.25s;
+  border: 1px solid green;
+}
+.btnEdit:hover {
+  background-color: white;
+  color: green;
+}
